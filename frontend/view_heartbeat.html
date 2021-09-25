@@ -1,0 +1,80 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/request_heartbeat.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Heartbeat Request</title>
+<div class="topnav">
+  <a class="active" href="https://team11.softwareengineeringii.com/assetManager.html">Asset Manager Home</a>
+</div>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <header>
+        <h1>
+        Request heartbeat
+    </h1>
+        <br>
+        <br>
+    </header>
+
+    <h4>Which Gateway's heartbeat would you like to see?</h4>
+    <select name="gateway" id="gateway">
+        <option value=56789> Gateway 56789</option>
+        <option value=2> Gateway 2</option>
+    </select>
+    <br><br>
+    <button id="submit"> Submit</button>
+    <ul id="heartbeatsList"></ul>
+
+    <!-- Using JQuery and Ajax-->
+    <script>
+        $(document).ready(() => {
+
+            function displayResponse(heartbeat) {
+                var $gatewayId = heartbeat.GWID;
+                var $timestamp = heartbeat.TIMESTAMP;
+                var $status = heartbeat.STATUS;
+
+
+                <!-- String being returned to the user -->
+                var $heartbeatToReturn = 'Gateway ID: ' + $gatewayId + ' Timestamp: ' + $timestamp + ' status ' + $status;
+
+                $('#heartbeatsList').append(`<li> ${$heartbeatToReturn} </li>`)
+            }
+
+            $('#submit').on('click', function() {
+                $('#heartbeatsList').empty();
+                var $gatewayClicked = $('#gateway').val();
+                console.log($gatewayClicked);
+
+                var gatewaySelectedByUser = {
+                    gateway: $gatewayClicked
+                };
+
+                console.log(gatewaySelectedByUser);
+                $.ajax({
+                    type: 'POST',
+                    url: '/api/heartbeatsAPI/get_heartbeat',
+                    data: gatewaySelectedByUser,
+                    success: function(gatewayHeartbeats) {
+                        console.log(gatewayHeartbeats);
+
+                        $.each(gatewayHeartbeats, function(index, $heartbeatToReturn) {
+                            displayResponse($heartbeatToReturn);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                        alert(err.responseText);
+                    }
+                });
+            })
+        });
+    </script>
+</body>
+
+</html>

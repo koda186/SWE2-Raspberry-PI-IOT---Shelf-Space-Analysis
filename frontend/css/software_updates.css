@@ -1,0 +1,27 @@
+
+body form select {
+    font-size: 20px;
+    border-style: groove;
+}
+
+body form input {
+    font-size: 15px;
+}
+
+div.topnav {
+    font-family: Helvetica;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    color: #1f52b8;
+    background-color: #e3e6e3;
+}
+
+a.active {
+    line-height: 50px;
+    padding: 20px;
+}
+
+div.topnav a {
+    padding: 20px;
+}

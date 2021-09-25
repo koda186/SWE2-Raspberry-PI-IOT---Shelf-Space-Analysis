@@ -1,0 +1,30 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/software_updates.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Software/Firmware Updates</title>
+    <div class="topnav">
+        <a class="active" href="https://team11.softwareengineeringii.com/assetManager.html">Asset Manager Home</a>
+        <a class="active" href="https://team11.softwareengineeringii.com/view_update_status.html">View Update Status</a>
+    </div>
+    <h1> Select which update you would like to push to the sensors. </h1>
+</head>
+
+<body>
+    <form action="/api/firmwareUpdateAPI/createNewFirmwareUpdate" method="POST">
+        <select name="software">
+            <option value="software_1.6">Software Update 1.6</option>
+            <option value="software_1.7">Software Update 1.7</option>
+            <option value="software_1.8">Software Update 1.8</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
