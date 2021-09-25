@@ -1,0 +1,80 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/request_heartbeat.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title>SW Update Status</title>
+<div class="topnav">
+  <a class="active" href="https://team11.softwareengineeringii.com/assetManager.html">Asset Manager Home</a>
+</div>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <header>
+        <h1>
+        Software Update Status
+    </h1>
+        <br>
+        <br>
+    </header>
+
+	<p><b>Select an update to view status</b></p>
+    <select name="user_value" id="user_value">
+        <option value="software_1.6"> 1.6</option>
+        <option value="software_1.7"> 1.7</option>
+	<option value="software_1.8"> 1.8</option>
+    </select>
+    <br><br>
+    <button id="submit"> Submit</button>
+    <ul id="updateList"></ul>
+
+    <!-- Using JQuery and Ajax-->
+    <script>
+        $(document).ready(() => {
+
+            function displayResponse(softwareUpdate) {
+                var $status = softwareUpdate.UPDATEDFIRMWARESTATUS;
+		var $timestamp = softwareUpdate.TIMESTAMP;
+
+
+                <!-- String being returned to the user -->
+                var $updateToReturn = 'Status: ' + $status + ' Timestamp: ' + $timestamp;
+
+                $('#updateList').append(`<li> ${$updateToReturn} </li>`)
+            }
+
+            $('#submit').on('click', function() {
+                $('#updateList').empty();
+                var $updateClicked = $('#user_value').val();
+                console.log($updateClicked);
+
+                var updateSelectedByUser = {
+                    update: $updateClicked
+                };
+
+                console.log(updateSelectedByUser);
+                $.ajax({
+                    type: 'POST',
+                    url: '/api/firmwareUpdateAPI/get_software_status',
+                    data: updateSelectedByUser,
+                    success: function(updates) {
+                        console.log(updates);
+
+                        $.each(updates, function(index, $updateToReturn) {
+                            displayResponse($updateToReturn);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                        alert(err.responseText);
+                    }
+                });
+            })
+        });
+    </script>
+</body>
+
+</html>
