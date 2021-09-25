@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6269c486-e144-42ff-b1fa-4e9b8cfdcfed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3.internal.traceformat/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3.internal.traceformat/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/.settings/org.eclipse.pde.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java-templates/org/eclipse/paho/client/mqttv3/internal/ClientComms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/BufferedMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/DisconnectedBufferOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttActionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttAsyncClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttDeliveryToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttMessageListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/IMqttToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttAsyncClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttCallbackExtended.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttClientPersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttConnectOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttDeliveryToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttPersistable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttPersistenceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttPingSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttSecurityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/MqttTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/ScheduledExecutorPingSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/TimerPingSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/ClientState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/CommsCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/CommsReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/CommsSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/CommsTokenStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/ConnectActionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/DestinationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/DisconnectedMessageBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/ExceptionHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/FileLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/IDisconnectedBufferCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/MessageCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/MqttPersistentData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/NetworkModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/NetworkModuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/ResourceBundleCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModuleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/TCPNetworkModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/TCPNetworkModuleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/security/SSLSocketFactoryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/security/SimpleBase64Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/ExtendedByteArrayOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/HandshakeFailedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketHandshake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketNetworkModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketNetworkModuleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketSecureNetworkModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketSecureNetworkModuleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/CountingInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttAck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttConnack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttDisconnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPersistableWireMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPingReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPingResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPubAck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPubComp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPubRec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPubRel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttPublish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttReceivedMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttSuback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttSubscribe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttUnsubAck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttUnsubscribe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MqttWireMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MultiByteArrayInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/wire/MultiByteInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/JSR47Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/SimpleLogFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/jsr47min.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/logging/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/package-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/persist/MemoryPersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/persist/MqttDefaultFilePersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/persist/PersistanceFileFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/persist/PersistanceFileNameFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/persist/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/spi/NetworkModuleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/spi/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/util/Debug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/util/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/util/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/META-INF/services/org.eclipse.paho.client.mqttv3.spi.NetworkModuleFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/bundle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/logcat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_cs.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_hu.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_pl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paho.mqtt.java/org.eclipse.paho.client.mqttv3/src/main/resources/org/eclipse/paho/client/mqttv3/internal/nls/messages_zh_TW.properties" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/paho.mqtt.java" />
+  </component>
+  <component name="ProjectId" id="1S2fqsaWSCnH4chtMuB0tbMY3j1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/org.eclipse.paho.client.mqttv3/target/org.eclipse.paho.client.mqttv3-1.2.2-SNAPSHOT.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jkdco\IdeaProjects\gwcSubscriber" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Sub">
+    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sub" />
+      <module name="gwcSubscriber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subscriber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Subscriber" />
+      <module name="gwcSubscriber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sub" />
+        <item itemvalue="Application.Subscriber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6269c486-e144-42ff-b1fa-4e9b8cfdcfed" name="Default Changelist" comment="" />
+      <created>1570766804785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570766804785</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sub.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
